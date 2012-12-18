@@ -141,6 +141,9 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
+# custom config
+include vendor/cm/config/northeye_common.mk
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     Focal \
